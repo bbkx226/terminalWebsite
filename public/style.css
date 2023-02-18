@@ -61,7 +61,7 @@ b {
 }
 #liner::before {
   color: #519975;
-  content: "guest@bbkx.live:~$";
+  content: "guest@bbkxterminal.web.app:~$";
 }
 #liner.password::before {
   content: "Password:";
