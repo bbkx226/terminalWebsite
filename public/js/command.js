@@ -13,51 +13,71 @@ var connectfour = "https://github.com/bbkx226/Games/blob/main/connectfour.py"
 var pong = "https://github.com/bbkx226/Games/blob/main/pong.py"
 var snake = "https://github.com/bbkx226/Games/blob/main/snake.py"
 var tetris = "https://github.com/bbkx226/Games/blob/main/tetris.py"
+var email ="mailto:bbkx226@gmail.com"
 
 help = [
-    'whois      Who is Brandon Ban?',
-    'bbkx       Discover more about me',
-    'projects   View Coding Projects',
-    'social     Display Social Networks',
-    'history    View command history',
-    'help       Ah, yes. You\'re a command whisperer! You already know what this one does.',
-    'email      Please don\'t spam my email',
-    'clear      Clear terminal',
-    'banner     Display the header',
+    '+========================================================================================+',
+    '| Commands   | Descriptions                                                              |',
+    '+========================================================================================+',
+    '| whois      | Who is Brandon Ban?                                                       |',
+    '| bbkx       | Discover more about me                                                    |',
+    '| projects   | View Coding Projects                                                      |',
+    '| social     | Display Social Networks                                                   |',
+    '| history    | View command history                                                      |',
+    '| help       | Ah, yes. You\'re a command whisperer! You already know what this one does. |',
+    '| email      | Please don\'t spam my email                                                |',
+    '| clear      | Clear terminal                                                            |',
+    '| banner     | Display the header                                                        |',
+    '| LinkedIn   | Checkout my LinkedIn profile for the latest updates!                      |',
+    '| GitHub     | Discover more projects on my GitHub profile                               |',
+    '| Facebook   | Contact me via Facebook                                                   |',
+    '| Instagram  | Don\'t expect much on it as I didn\'t post anything xD                      |',
+    '| bmttuxd    | Unveil the obscurity that lies within me.                                 |',
+    '+========================================================================================+',
 ]
 
 whois = [
     "<br>",
-    "Welcome to my Terminal Website, I'm Brandon!😎",
-    "I am currently studying computer science at the Asia Pacific University of Technology and Innovation. Born in Johore, Malaysia.",
-    "As a highly motivated and disciplined computer science student, I am deeply committed to pursuing a career in full stack development.",
-    "Through a combination of self-study and collaboration with my peers, I am continuously working to hone my skills and achieve my goal of becoming a full-fledged full stack developer.",
-    "I am keen to challenge myself by venturing beyond my comfort zone and embracing new opportunities and challenges.",
-    "One of the things I enjoy about programming is the opportunity to develop something that will make our lives easier and more efficient.",
-    "Apart from that, it allows me to collaborate with people from various disciplines who share my interests.",
-    "It's fantastic to collaborate with other professionals who are striving toward the same goal.",
+    "Welcome to my Terminal Website, I'm <span class=\"command\">Brandon</span>!😎",
+    "<br>",
+    "- I am currently studying computer science at the Asia Pacific University of Technology and Innovation.",
+    "- Born in Johore, Malaysia.",
+    "<br>",
+    "- As a <span class=\"command\">highly motivated</span> and <span class=\"command\">disciplined</span> computer science student, I am deeply committed to pursuing a career in full stack development.",
+    "<br>",
+    "- Through a combination of <span class=\"command\">self-study</span> and collaboration with my peers,",
+    "  I am continuously working to hone my skills and achieve my goal of becoming a full-fledged <span class=\"command\">full stack developer</span>.",
+    "<br>",
+    "- I am also keen to <span class=\"command\">challenge myself</span> by venturing beyond my comfort zone and embracing new opportunities and challenges.",
+    "<br>",
+    "- One of the things I enjoy about programming is the opportunity to develop something that will <span class=\"command\">make our lives easier and more efficient</span>.",
+    "<br>",
+    "- Apart from that, it allows me to collaborate with people from various disciplines who share my interests.",
+    "<br>",
+    "- It's fantastic to collaborate with other professionals who are striving toward the same goal.",
     "<br>",
 ]
 
 bbkx = [
     "<br>",
-    'For a comprehensive overview of my qualifications and expertise, I kindly direct you to my portfolio website',
+    'For a comprehensive overview of my qualifications and expertise, I kindly direct you to my <a href="' + portfolio + '" target="_blank">portfolio website.' + "</a>",
     "<br>"
 ]
 
 projects = [
     "<br>",
-    "Code Projects",
+    "<span class=\"command\">Code Projects</span>",
     '<a href="' + discord + '" target="_blank">Discord Bot' + "</a>",
+    '<p class="terminal">Terminal Website (The one you\'re using right now!)</p>',
     '<a href="' + aimagenerator + '" target="_blank">AI Image Generator' + "</a>",
     '<a href="' + blockchain + '" target="_blank">Blockchain Web3 Application' + "</a>",
     '<a href="' + guzheng + '" target="_blank">Guzheng Chatbot' + "</a>",
     "<br>",
-    "Figma Prototypes",
+    "<span class=\"command\">Figma Prototypes</span>",
     '<a href="' + iserv + '" target="_blank">Cleaning Service System Prototype' + "</a>",
     '<a href="' + aqualert + '" target="_blank">Aqua Alert' + "</a>",
-    "Mini Games",
     "<br>",
+    "<span class=\"command\">Mini games</span>",
     '<a href="' + connectfour + '" target="_blank">Connect Four' + "</a>",
     '<a href="' + pong + '" target="_blank">Pong' + "</a>",
     '<a href="' + snake + '" target="_blank">Snake' + "</a>",
@@ -67,11 +87,55 @@ projects = [
 
 social = [
     "<br>",
-    'LinkedIn       <a href="' + linkedin + '" target="_blank">LinkedIn/bbkx226' + "</a>",
-    'GitHub         <a href="' + github + '" target="_blank">GitHub/bbkx226' + "</a>",
-    'Facebook       <a href="' + facebook + '" target="_blank">Facebook/Brandon Ban' + "</a>",
-    'Instagram       <a href="' + instagram + '" target="_blank">Instagram/Brandon Ban' + "</a>",
+    '<span class=\"command\">LinkedIn</span>       <a href="' + linkedin + '" target="_blank">LinkedIn/bbkx226' + "</a>",
+    '<span class=\"command\">GitHub</span>        <a href="' + github + '" target="_blank">GitHub/bbkx226' + "</a>",
+    '<span class=\"command\">Facebook</span>       <a href="' + facebook + '" target="_blank">Facebook/Brandon Ban' + "</a>",
+    '<span class=\"command\">Instagram</span>      <a href="' + instagram + '" target="_blank">Instagram/Brandon Ban' + "</a>",
     "<br>"
 ]
 
-banner = []
+banner = [
+  '██████╗░██████╗░░█████╗░███╗░░██╗██████╗░░█████╗░███╗░░██╗  ██████╗░░█████╗░███╗░░██╗',
+  '██╔══██╗██╔══██╗██╔══██╗████╗░██║██╔══██╗██╔══██╗████╗░██║  ██╔══██╗██╔══██╗████╗░██║',
+  '██████╦╝██████╔╝███████║██╔██╗██║██║░░██║██║░░██║██╔██╗██║  ██████╦╝███████║██╔██╗██║',
+  '██╔══██╗██╔══██╗██╔══██║██║╚████║██║░░██║██║░░██║██║╚████║  ██╔══██╗██╔══██║██║╚████║',
+  '██████╦╝██║░░██║██║░░██║██║░╚███║██████╔╝╚█████╔╝██║░╚███║  ██████╦╝██║░░██║██║░╚███║',
+  '╚═════╝░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚══╝╚═════╝░░╚════╝░╚═╝░░╚══╝  ╚═════╝░╚═╝░░╚═╝╚═╝░░╚══╝',
+  '                                                                                     ',
+  '                                                                                     ',
+  '                                                                                     ',
+  '.-----------------------------------------------------------------------------.                                      ue$$$$$$$$$e.',
+  '||Es| |F1 |F2 |F3 |F4 |F5 | |F6 |F7 |F8 |F9 |F10|                  BRANDON_   |                                   o$$$P""     "#$$$b',
+  '||__| |___|___|___|___|___| |___|___|___|___|___|                             |                                 d$$$"            ?$$N',
+  '| _____________________________________________     ________    ___________   |                                x$$$"               $$$',
+  '||~  |! |" |§ |$ |% |& |/ |( |) |= |? |` || |<-|   |Del|Help|  |{ |} |/ |* |  |                               d$$$     .ueeeeeeeeee$$$beeeeeu',
+  '||`__|1_|2_|3_|4_|5_|6_|7_|8_|9_|0_|ß_|\´_|\\_|__|   |___|____|  |[ |]_|__|__|  |                            @$$$     d$            $>      $$',
+  '||<-  |Q |W |E |R |T |Z |U |I |O |P |Ü |* |   ||               |7 |8 |9 |- |  |                             $$$$      $$            $>      4$',
+  '||->__|__|__|__|__|__|__|__|__|__|__|__|+_|_  ||               |__|__|__|__|  |          $$$.             .$$$P       $$            $>      4$',
+  '||Ctr|oC|A |S |D |F |G |H |J |K |L |Ö |Ä |^ |< |               |4 |5 |6 |+ |  |          ?$$$L           z$$$"        $$eeeeeeeeeeee$beeeeeed$',
+  '||___|_L|__|__|__|__|__|__|__|__|__|__|__|#_|__|       __      |__|__|__|__|  |            *$$$e..   .z$$$$"          $$                    4$',
+  '||^    |> |Y |X |C |V |B |N |M |; |: |_ |^     |      |A |     |1 |2 |3 |E |  |              ^#R$$$$$$$*"             $$                    4$',
+  '||_____|<_|__|__|__|__|__|__|__|,_|._|-_|______|    __||_|__   |__|__|__|n |  |                                       $$                    4$',
+  '|   |Alt|A  |                       |A  |Alt|      |<-|| |->|  |0    |. |t |  |                                       $$                    4$',
+  '|   |___|___|_______________________|___|___|      |__|V_|__|  |_____|__|e_|  |                                       $$                    4$',
+  '|                                                                             |                                       $$                    4$',
+  '.-----------------------------------------------------------------------------.                                       9$                    d$',
+  '                                                                                                                       $k                   $F',
+  '                                                                                                                        $N                z$" ',
+  '                                                                                                                         \'*$o.         .e$"  ',
+  '                                                                                                                              "#*$$$$P*""     ',
+]
+
+suggestion = [
+  "<p class>",
+  "<span class=\"color2\">Welcome to my terminal website! This website was inspired by <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=KtYby2QN0kQ&list=RDCMUC2WHjPDvbE6O328n17ZGcfg&start_radio=1&rv=KtYby2QN0kQ&t=15&ab_channel=ForrestKnight\">ForrestKnight~</a><br>For a list of available commands, type <span class=\"command\">help</span> .",
+  "</span>",
+  "</p>",
+]
+
+secret = [
+  "<br>",
+  '<span class=\"command\">sudo</span>       Only admin can type this command',
+  '<span class=\"command\">rm -rf</span>     This will remove all files and directories of this website',
+  "<br>"
+]

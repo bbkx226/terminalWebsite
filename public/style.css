@@ -7,65 +7,77 @@ body {
   color: #519975;
   background: #211D1B;
   font-family: cursor, monospace;
-  overflow-x: hidden;
+  overflow-x: hidden; /* specifies how to handle the overflow of content along the horizontal (X) axis of an element's content box*/
 }
-::selection {
+
+::selection { /* used to target the selected text */
   color: #211830;
   background-color: #519975;
 }
-::-moz-selection {
+
+::-moz-selection { /* the text that is selected by the user, specifically for the Firefox browser*/
   color: #211830;
   background-color: #519975;
 }
+
 textarea {
   left: -1000px;
   position: absolute;
 }
+
 b {
   font-weight: bold;
   text-decoration: underline;
 }
+
 /* Cursor Start */
 .cursor {
   font-size: 12px;
   color: #73ABAD;
   background-color: #73ABAD;
-  position: relative;
-  opacity: 1;
+  position: relative; /* it is positioned relative to its normal position in the document flow.*/
+  opacity: 1; /* Sets the opacity of the cursor to 1, which means it is fully visible */
   height: 1.5em;
   width: 10px;
   max-width: 10px;
-  transform: translateY(4px);
+  transform: translateY(4px); /* Applies a vertical translation of 4px to the cursor, which positions it slightly above the baseline of the text*/
   overflow: hidden;
-  text-indent: -5px;
-  display: inline-block;
-  text-decoration: blink;
+  text-indent: -5px; /* Sets the text indent property to -5px, which moves the cursor to the left by 5px.*/
+  display: inline-block; /* allows the cursor to be positioned within the text flow */
+  text-decoration: blink; /* Applies a text decoration of blink, which makes the cursor blink on and off */
   animation: blinker 1s linear infinite;
 }
-@keyframes blinker {
-  50% {
+
+@keyframes blinker { /* define a set of styles that can be used in an animation*/
+  50% { /* Defines the point in the animation timeline where the following styles should be applied.*/
     opacity: 0;
   }
 }
-#command {
+
+#command { /* '#' for class, '.' for id */
   cursor: text;
   height: 50px;
   color: #73ABAD;
 }
+
 #liner {
   line-height: 1.3em;
   margin-top: -2px;
-  animation: show 0.5s ease forwards;
+  animation: show 0.5s ease forwards; 
+  /* run for 0.5 seconds with an easing function of ease and will keep the final state of the animation after it finishes. */
   animation-delay: 1.2s;
   opacity: 0;
 }
+
 #liner::before {
   color: #519975;
   content: "guest@bbkxterminal.web.app:~$";
 }
-#liner.password::before {
+
+#liner.password::before {/* targets the ::before pseudo-element of the #liner element when it has a password class.*/
   content: "Password:";
 }
+
 @keyframes show {
   from {
     opacity: 0;
@@ -74,23 +86,28 @@ b {
     opacity: 1;
   }
 }
+
 /* Cursor End */
 p {
   display: block;
   line-height: 1.3em;
   margin: 0;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: nowrap; /*  prevents line breaks within the content of the element */
   margin: 0;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.05em; /* sets the spacing between letters in the text */
   animation: typing 0.5s steps(30, end);
+  /* runs for 0.5 seconds with a step function that displays the text in 30 steps, with the final step being the complete text */
 }
+
 .no-animation {
   animation: typing 0 steps(30, end);
 }
+
 .margin {
   margin-left: 20px;
 }
+
 @keyframes typing {
   from {
     width: 0;
@@ -99,36 +116,48 @@ p {
     width: 100%;
   }
 }
+
 .index {
   color: #DCDCCC;
 }
+
 .color2 {
   color: #B89076;
 }
+
 .command {
   color: #73ABAD;
   text-shadow: 0 0 5px #73ABAD; 
 }
+
 .error {
   color: #B89076;
 }
+
 .white {
   color: #fff;
 }
+
 .inherit,
 a {
   color: #9C8394;
 }
+
 .terminal {
   color: #9C8394;
 }
+
 a {
   text-decoration: inherit;
+  /* The text-decoration property controls the underlining, overlining, or striking through of text. */
+  /* By setting it to inherit, this style tells the a element to inherit its text decoration from its parent element.*/
 }
+
 a:hover {
   background: #73ABAD;
   color: #211830;
 }
+
 a:focus {
-  outline: 0;
+  outline: 0; /* used to remove the default focus outline that appears around links when they are clicked */
 }
