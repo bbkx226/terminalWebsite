@@ -103,7 +103,7 @@ function commander(cmd) {
       }, 1000); 
       break;
     case "rm -rf":
-      addLine("HaHa, you really think you're going to make it, don't you?!", 80)
+      addLine("HaHa, you really think you're going to make it, don't you?!", "color2", 80)
       setTimeout(function() {
         window.open('https://trollface.dk/');
       }, 1000); 
