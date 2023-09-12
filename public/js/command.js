@@ -6,14 +6,22 @@ var instagram = "https://www.instagram.com/bbkx_/"
 var discord = "https://discord.com/oauth2/authorize?client_id=816611024362668122&permissions=156766824512&scope=bot"
 var aimagenerator = "https://imagegeneratorai-6e92d.web.app/"
 var blockchain = "https://blockchainapp-4e293.web.app/"
+var aisummarizer = "https://brandongpt-summarizer.web.app/"
+var aiverse = "https://ai-verse.vercel.app/"
+var shirtify = "https://shirtify-me.vercel.app/"
+var brancoin = "https://brancoin-crypto.vercel.app/"
+var quizbraniac = "https://quizbraniac.vercel.app/"
 var guzheng = "https://app.engati.com/static/standalone/bot.html?bot_key=63ef367dfa364830&env=p"
 var iserv = "https://www.figma.com/proto/utxhK2W3AYMe2FVdEgIaGw/SAAD-Prototype?node-id=0%3A1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=10%3A138&show-proto-sidebar=1"
 var aqualert = "https://www.figma.com/proto/XKmlWK1PPpaWHPGONSpZfn/OH-Water-Pollution?node-id=431%3A371&scaling=scale-down&page-id=414%3A2&starting-point-node-id=431%3A371"
+var jomhack = "https://www.figma.com/proto/JysZLsQzaeQuCrgNRaBNtX/JomHack-Insurances-Sdn.-Bhd.?node-id=1-1679&starting-point-node-id=1%3A1679&scaling=scale-down-width"
 var connectfour = "https://github.com/bbkx226/Games/blob/main/connectfour.py"
 var pong = "https://github.com/bbkx226/Games/blob/main/pong.py"
 var snake = "https://github.com/bbkx226/Games/blob/main/snake.py"
 var tetris = "https://github.com/bbkx226/Games/blob/main/tetris.py"
 var email ="mailto:bbkx226@gmail.com"
+var gcloud = "https://www.cloudskillsboost.google/public_profiles/8985c65b-6ea4-42af-ade2-3fe66b0992b4"
+var credly = "https://www.credly.com/users/brandon-ban-kai-xian/badges"
 
 help = [
     '+========================================================================================+',
@@ -31,6 +39,8 @@ help = [
     '| LinkedIn   | Checkout my LinkedIn profile for the latest updates!                      |',
     '| GitHub     | Discover more projects on my GitHub profile                               |',
     '| Facebook   | Contact me via Facebook                                                   |',
+    '| GCloud     | View my Google Cloud Skills Boost Profile                                 |',    
+    '| Credly     | View my Credly Profile                                                    |',    
     '| Instagram  | Don\'t expect much on it as I didn\'t post anything xD                      |',
     '| bmttuxd    | Unveil the obscurity that lies within me.                                 |',
     '+========================================================================================+',
@@ -71,11 +81,17 @@ projects = [
     '<p class="terminal">Terminal Website (The one you\'re using right now!)</p>',
     '<a href="' + aimagenerator + '" target="_blank">AI Image Generator' + "</a>",
     '<a href="' + blockchain + '" target="_blank">Blockchain Web3 Application' + "</a>",
+    '<a href="' + aisummarizer + '" target="_blank">AI Summarizer' + "</a>",
+    '<a href="' + aiverse + '" target="_blank">AI verse' + "</a>",
+    '<a href="' + shirtify + '" target="_blank">Shirtify' + "</a>",
+    '<a href="' + brancoin + '" target="_blank">Brancoin' + "</a>",
+    '<a href="' + quizbraniac + '" target="_blank">Quizbraniac' + "</a>",
     '<a href="' + guzheng + '" target="_blank">Guzheng Chatbot' + "</a>",
     "<br>",
     "<span class=\"command\">Figma Prototypes</span>",
     '<a href="' + iserv + '" target="_blank">Cleaning Service System Prototype' + "</a>",
     '<a href="' + aqualert + '" target="_blank">Aqua Alert' + "</a>",
+    '<a href="' + jomhack + '" target="_blank">JomHack Insurance' + "</a>",
     "<br>",
     "<span class=\"command\">Mini games</span>",
     '<a href="' + connectfour + '" target="_blank">Connect Four' + "</a>",

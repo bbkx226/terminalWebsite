@@ -153,6 +153,14 @@ function commander(cmd) {
       addLine("Opening Facebook...", "color2", 0);
       newTab(facebook);
       break;
+    case "gcloud":
+      addLine("Opening Google Cloud Skills Boost...", "color2", 0);
+      newTab(gcloud);
+      break;
+    case "credly":
+      addLine("Opening Credly...", "color2", 0);
+      newTab(credly);
+      break;
     case "instagram":
       addLine("Opening Instagram...", "color2", 0);
       newTab(instagram);
